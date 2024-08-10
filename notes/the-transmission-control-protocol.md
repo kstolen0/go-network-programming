@@ -20,13 +20,11 @@ TCP sessions allow you to deliver a stream of data of any size to a recipient an
 
 TCP connections use a three-way handshake between the client and server. The handshake creates an established TCP session over which to exchange data. The handshake process consists of three messages:
 
-```sequenceDiagram
+```mermaid
+sequenceDiagram
 Client ->> Server: SYN
 Server ->> Client: SYN / ACK
 Client ->> Server: SYN
 ```
-Client - SYN -> Server
-Client <- SYN / ACK - Server
-Client - SYN -> Server
 
 
