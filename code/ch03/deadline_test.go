@@ -37,7 +37,6 @@ func TestDeadline(t *testing.T) {
 		if !ok || !nErr.Timeout() {
 			t.Errorf("expected timeout error; actual: %v", err)
 		}
-		testing
 
 		sync <- struct{}{}
 
