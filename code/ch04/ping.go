@@ -24,7 +24,6 @@ func init() {
 // Ping using TCP instead of ICMP.
 // Useful for when firewalls are blocking ICMP requests.
 // However more expensive than simple ICMP echo requests.
-
 func main() {
 	flag.Parse()
 	if flag.NArg() != 1 {
