@@ -1,4 +1,4 @@
-package ch05
+pckage ch05
 
 import (
 	"bytes"
